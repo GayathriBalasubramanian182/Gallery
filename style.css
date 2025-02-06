@@ -1,0 +1,110 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header and Navbar */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.navbar h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.navbar nav {
+    float: right;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Home Page Banner */
+.home-banner {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-banner h2 {
+    font-size: 2.5rem;
+}
+
+.home-banner p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.home-banner .btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.home-banner .btn:hover {
+    background-color: #3498db;
+}
+
+/* Gallery Page */
+.gallery-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
